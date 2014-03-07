@@ -20,6 +20,8 @@
 		E9A18DD818C1792600A33C54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A18DBA18C1792500A33C54 /* UIKit.framework */; };
 		E9A18DE018C1792600A33C54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9A18DDE18C1792600A33C54 /* InfoPlist.strings */; };
 		E9A18DE218C1792600A33C54 /* KountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A18DE118C1792600A33C54 /* KountTests.m */; };
+		E9DE1C5818C28686001E8C45 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E9DE1C5718C28686001E8C45 /* bg.png */; };
+		E9DE1C5A18C286FC001E8C45 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9DE1C5918C286FC001E8C45 /* bg@2x.png */; };
 		E9F9C4F518C17AE9006F866F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F9C4F418C17AE9006F866F /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		E9A18DDD18C1792600A33C54 /* KountTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KountTests-Info.plist"; sourceTree = "<group>"; };
 		E9A18DDF18C1792600A33C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9A18DE118C1792600A33C54 /* KountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KountTests.m; sourceTree = "<group>"; };
+		E9DE1C5718C28686001E8C45 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		E9DE1C5918C286FC001E8C45 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
 		E9F9C4F418C17AE9006F866F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,9 +156,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E9DE1C5618C28678001E8C45 /* LaunchImage */ = {
+			isa = PBXGroup;
+			children = (
+				E9DE1C5718C28686001E8C45 /* bg.png */,
+				E9DE1C5918C286FC001E8C45 /* bg@2x.png */,
+			);
+			name = LaunchImage;
+			sourceTree = "<group>";
+		};
 		E9F9C4F318C17AE9006F866F /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				E9DE1C5618C28678001E8C45 /* LaunchImage */,
 				E9F9C4F418C17AE9006F866F /* Images.xcassets */,
 			);
 			path = Assets;
@@ -238,7 +252,9 @@
 			files = (
 				E9F9C4F518C17AE9006F866F /* Images.xcassets in Resources */,
 				E9A18DC118C1792600A33C54 /* InfoPlist.strings in Resources */,
+				E9DE1C5818C28686001E8C45 /* bg.png in Resources */,
 				E9A18DCA18C1792600A33C54 /* Main.storyboard in Resources */,
+				E9DE1C5A18C286FC001E8C45 /* bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

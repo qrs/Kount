@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    int myTime;
+}
+
+@property (weak, nonatomic) IBOutlet UILabel *timerLabel;
 
 @end
